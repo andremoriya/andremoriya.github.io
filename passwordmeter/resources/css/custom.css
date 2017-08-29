@@ -1,0 +1,11 @@
+body {
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}

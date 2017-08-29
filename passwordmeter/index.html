@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="passwordMeterApp">
+    <head>             
+
+        <title>Avaliador de senha</title>
+
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/custom.css">
+
+    </head>
+    <body>
+
+        <div class="container" ng-controller="passwordController">    
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>
+                        <small>Avaliador de Segurança de Senha</small>
+                    </h3>
+                    <div class="well">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input type="password" class="form-control" id="password"
+                                       placeholder="Informe a senha" ng-change="onChangePassword()"
+                                       ng-model="password">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <h3>
+                                    <span class="label label-default">{{score}}%</span>
+                                    <span class="label {{labelCss}}">{{complexity}}</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script src="resources/js/jquery-3.2.1.min.js"></script>
+    <script src="resources/js/angular.min.js"></script>
+    <script src="resources/js/angular-resource.min.js"></script>
+    <script src="resources/js/app.js"></script>
+
+</html>
