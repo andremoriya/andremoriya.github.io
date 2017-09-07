@@ -1,6 +1,6 @@
 var app = angular.module("passwordMeterApp", ['ngResource']);
 
-var context = "http://service-moriya.rhcloud.com/service/";
+var context = "https://service-moriya.rhcloud.com/service/";
 
 app.controller("passwordController", function ($scope, PasswordCheck) {
 
