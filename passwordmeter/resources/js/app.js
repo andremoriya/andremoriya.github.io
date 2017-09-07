@@ -1,6 +1,6 @@
 var app = angular.module("passwordMeterApp", ['ngResource']);
 
-var context = "127.8.102.129:8080/";
+var context = "http://127.8.102.129:8080/service/";
 
 app.controller("passwordController", function ($scope, PasswordCheck) {
 
