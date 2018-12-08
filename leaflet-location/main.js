@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div { position: absolute; width: 100%; height: 100%; }\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxtQkFBbUIsQ0FBQyxZQUFZLENBQUMsYUFBYSxFQUFFIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYgeyBwb3NpdGlvbjogYWJzb2x1dGU7IHdpZHRoOiAxMDAlOyBoZWlnaHQ6IDEwMCU7IH1cclxuIl19 */"
+module.exports = "div { position: absolute; width: 100%; height: 100%; }\r\ndiv#map { position: absolute; width: 99%; height: 98%; }\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxtQkFBbUIsQ0FBQyxZQUFZLENBQUMsYUFBYSxFQUFFO0FBQ3RELFVBQVUsbUJBQW1CLENBQUMsV0FBVyxDQUFDLFlBQVksRUFBRSIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2IHsgcG9zaXRpb246IGFic29sdXRlOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMDAlOyB9XHJcbmRpdiNtYXAgeyBwb3NpdGlvbjogYWJzb2x1dGU7IHdpZHRoOiA5OSU7IGhlaWdodDogOTglOyB9XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "div { position: absolute; width: 100%; height: 100%; }\r\n\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div id=\"map\">\n</div>\n\n"
+module.exports = "\n<div id=\"map\"></div>\n\n"
 
 /***/ }),
 
